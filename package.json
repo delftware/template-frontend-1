@@ -1,0 +1,55 @@
+{
+  "name": "clc",
+  "version": "0.1.0",
+  "engines": {
+    "node": "9.11.1"
+  },
+  "private": true,
+  "devDependencies": {
+    "custom-react-scripts": "0.2.0",
+    "gh-pages": "^1.0.0",
+    "mobx-devtools": "^0.9.14"
+  },
+  "dependencies": {
+    "formik": "^0.11.11",
+    "formik-persist": "^1.0.0",
+    "history": "4.7.2",
+    "isomorphic-unfetch": "^2.0.0",
+    "marked": "^0.3.6",
+    "mobx": "^4.2.0",
+    "mobx-react": "^5.0.0",
+    "moment": "^2.22.2",
+    "polished": "^1.9.2",
+    "promise.prototype.finally": "^3.0.0",
+    "prop-types": "^15.5.10",
+    "query-string": "5.0.0",
+    "react": "^16.0.0",
+    "react-breadcrumbs": "^2.1.6",
+    "react-burger-menu": "^2.5.0",
+    "react-dom": "^16.0.0",
+    "react-dropzone": "^4.2.11",
+    "react-fullpage": "^0.1.18",
+    "react-helmet": "^5.2.0",
+    "react-router-dom": "4.2.2",
+    "react-spinners": "^0.3.2",
+    "react-typist": "^2.0.4",
+    "react-user-avatar": "^1.10.0",
+    "rebass": "2.0.0-2",
+    "semantic-ui-css": "^2.3.1",
+    "semantic-ui-react": "^0.81.1",
+    "styled-components": "^3.3.2",
+    "styled-components-breakpoint": "^2.0.2",
+    "superagent": "^3.8.3",
+    "superagent-promise": "^1.1.0",
+    "yup": "^0.25.1"
+  },
+  "scripts": {
+    "dev": "PORT=3005 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "heroku-postbuild": "npm run build"
+  }
+}
